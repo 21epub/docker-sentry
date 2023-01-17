@@ -249,6 +249,7 @@ SENTRY_WEB_HOST = '0.0.0.0'
 SENTRY_WEB_PORT = 9000
 SENTRY_WEB_OPTIONS = {
     # 'workers': 3,  # the number of web workers
+    'limit-post': 1024 * 1024 * 1024 * 2
 }
 
 ###############
